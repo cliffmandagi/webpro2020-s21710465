@@ -1,11 +1,9 @@
 // Dekonstruksi Array
-let buah = ["mangga", "pisang", "anggur"];
+let buah = ["Mangga", "Pisang", "Anggur"];
 
 let [buah1, buah2, buah3] = buah;
 
-console.log(buah1);
-console.log(buah2);
-console.log(buah3);
+console.log(buah1, buah2, buah3);
 
 // Menukar nilai variabel
 let a = 10;
@@ -20,11 +18,9 @@ let orang = {
     sudahMenikah: false
 };
 
-let { nama, umur, statusMenikah } = orang;
+let { nama, age: umur, statusMenikah } = orang;
 
-console.log(nama);
-console.log(umur);
-console.log(statusMenikah);
+console.log(nama, age, statusMenikah);
 
 // Dekonstruksi Object bertingkat
 let murid = {
