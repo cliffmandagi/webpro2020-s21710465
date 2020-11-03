@@ -52,7 +52,7 @@ makeAjaxRequest('www.google.com');
 
 // === Bagian 2 ===
 // No. 1
-const warnaKesukaan = (warna = "putih") =>  console.log("Warna kesukaan saya adalah " + warna);
+const warnaKesukaan = (warna = "putih") =>  console.log(`Warna kesukaan saya adalah ${warna}`);
 
 warnaKesukaan("merah");
 
